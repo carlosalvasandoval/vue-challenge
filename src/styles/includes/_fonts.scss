@@ -1,0 +1,33 @@
+$font_path: "../fonts/";
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url($font_path+"OpenSans/OpenSans-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url($font_path+"OpenSans/OpenSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url($font_path+"Roboto/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url($font_path+"Roboto/Roboto-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url($font_path+'icons/icomoon.eot?mx6vst');
+    src:  url($font_path+'icons/icomoon.eot?mx6vst#iefix') format('embedded-opentype'),
+      url($font_path+'icons/icomoon.ttf?mx6vst') format('truetype'),
+      url($font_path+'icons/icomoon.woff?mx6vst') format('woff'),
+      url($font_path+'icons/icomoon.svg?mx6vst#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }

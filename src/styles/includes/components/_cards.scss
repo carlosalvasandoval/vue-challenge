@@ -1,0 +1,19 @@
+.card-title {
+  color: $second-blue;
+}
+.card-header {
+  padding: 0.75rem 2.5rem;
+  margin-bottom: 0;
+  background-color: white;
+  font-size: 1.5rem;
+  color: $second-blue;
+}
+.card-img {
+  max-width: 64px;
+}
+
+@media (max-width: 576px) {
+  .card-img {
+    max-width: 50px;
+  }
+}
